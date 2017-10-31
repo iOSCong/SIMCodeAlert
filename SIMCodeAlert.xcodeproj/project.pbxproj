@@ -15,6 +15,7 @@
 		D83AF1591FA89BC600D00EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF1581FA89BC600D00EC2 /* main.m */; };
 		D83AF1631FA89BC600D00EC2 /* SIMCodeAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF1621FA89BC600D00EC2 /* SIMCodeAlertTests.m */; };
 		D83AF16E1FA89BC600D00EC2 /* SIMCodeAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF16D1FA89BC600D00EC2 /* SIMCodeAlertUITests.m */; };
+		D83AF17E1FA89C4300D00EC2 /* MZSIMCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF17C1FA89C4300D00EC2 /* MZSIMCodeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D83AF1691FA89BC600D00EC2 /* SIMCodeAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIMCodeAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83AF16D1FA89BC600D00EC2 /* SIMCodeAlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIMCodeAlertUITests.m; sourceTree = "<group>"; };
 		D83AF16F1FA89BC600D00EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83AF17C1FA89C4300D00EC2 /* MZSIMCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZSIMCodeView.m; sourceTree = "<group>"; };
+		D83AF17D1FA89C4300D00EC2 /* MZSIMCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZSIMCodeView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		D83AF1481FA89BC600D00EC2 /* SIMCodeAlert */ = {
 			isa = PBXGroup;
 			children = (
+				D83AF17B1FA89C1900D00EC2 /* SIMCodeView */,
 				D83AF1491FA89BC600D00EC2 /* AppDelegate.h */,
 				D83AF14A1FA89BC600D00EC2 /* AppDelegate.m */,
 				D83AF14C1FA89BC600D00EC2 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				D83AF16F1FA89BC600D00EC2 /* Info.plist */,
 			);
 			path = SIMCodeAlertUITests;
+			sourceTree = "<group>";
+		};
+		D83AF17B1FA89C1900D00EC2 /* SIMCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				D83AF17D1FA89C4300D00EC2 /* MZSIMCodeView.h */,
+				D83AF17C1FA89C4300D00EC2 /* MZSIMCodeView.m */,
+			);
+			path = SIMCodeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83AF17E1FA89C4300D00EC2 /* MZSIMCodeView.m in Sources */,
 				D83AF14E1FA89BC600D00EC2 /* ViewController.m in Sources */,
 				D83AF1591FA89BC600D00EC2 /* main.m in Sources */,
 				D83AF14B1FA89BC600D00EC2 /* AppDelegate.m in Sources */,
@@ -430,11 +444,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SIMCodeAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mcej.SIMCodeAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -443,11 +461,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SIMCodeAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mcej.SIMCodeAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
