@@ -2,9 +2,6 @@
 //  MZSIMCodeView.m
 //  MobileBank
 //
-//  Created by 中科金财 on 17/9/4.
-//  Copyright © 2017年 中科金财电子商务有限公司. All rights reserved.
-//
 
 #import "MZSIMCodeView.h"
 
