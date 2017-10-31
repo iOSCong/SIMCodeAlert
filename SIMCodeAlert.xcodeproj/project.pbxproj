@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D83AF14B1FA89BC600D00EC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF14A1FA89BC600D00EC2 /* AppDelegate.m */; };
+		D83AF14E1FA89BC600D00EC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF14D1FA89BC600D00EC2 /* ViewController.m */; };
+		D83AF1511FA89BC600D00EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83AF14F1FA89BC600D00EC2 /* Main.storyboard */; };
+		D83AF1531FA89BC600D00EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83AF1521FA89BC600D00EC2 /* Assets.xcassets */; };
+		D83AF1561FA89BC600D00EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83AF1541FA89BC600D00EC2 /* LaunchScreen.storyboard */; };
+		D83AF1591FA89BC600D00EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF1581FA89BC600D00EC2 /* main.m */; };
+		D83AF1631FA89BC600D00EC2 /* SIMCodeAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF1621FA89BC600D00EC2 /* SIMCodeAlertTests.m */; };
+		D83AF16E1FA89BC600D00EC2 /* SIMCodeAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF16D1FA89BC600D00EC2 /* SIMCodeAlertUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D83AF15F1FA89BC600D00EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D83AF13E1FA89BC500D00EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D83AF1451FA89BC600D00EC2;
+			remoteInfo = SIMCodeAlert;
+		};
+		D83AF16A1FA89BC600D00EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D83AF13E1FA89BC500D00EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D83AF1451FA89BC600D00EC2;
+			remoteInfo = SIMCodeAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D83AF1461FA89BC600D00EC2 /* SIMCodeAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIMCodeAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83AF1491FA89BC600D00EC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D83AF14A1FA89BC600D00EC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D83AF14C1FA89BC600D00EC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D83AF14D1FA89BC600D00EC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D83AF1501FA89BC600D00EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D83AF1521FA89BC600D00EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D83AF1551FA89BC600D00EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D83AF1571FA89BC600D00EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83AF1581FA89BC600D00EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D83AF15E1FA89BC600D00EC2 /* SIMCodeAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIMCodeAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83AF1621FA89BC600D00EC2 /* SIMCodeAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIMCodeAlertTests.m; sourceTree = "<group>"; };
+		D83AF1641FA89BC600D00EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83AF1691FA89BC600D00EC2 /* SIMCodeAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIMCodeAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83AF16D1FA89BC600D00EC2 /* SIMCodeAlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIMCodeAlertUITests.m; sourceTree = "<group>"; };
+		D83AF16F1FA89BC600D00EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D83AF1431FA89BC600D00EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83AF15B1FA89BC600D00EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83AF1661FA89BC600D00EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D83AF13D1FA89BC500D00EC2 = {
+			isa = PBXGroup;
+			children = (
+				D83AF1481FA89BC600D00EC2 /* SIMCodeAlert */,
+				D83AF1611FA89BC600D00EC2 /* SIMCodeAlertTests */,
+				D83AF16C1FA89BC600D00EC2 /* SIMCodeAlertUITests */,
+				D83AF1471FA89BC600D00EC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D83AF1471FA89BC600D00EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D83AF1461FA89BC600D00EC2 /* SIMCodeAlert.app */,
+				D83AF15E1FA89BC600D00EC2 /* SIMCodeAlertTests.xctest */,
+				D83AF1691FA89BC600D00EC2 /* SIMCodeAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D83AF1481FA89BC600D00EC2 /* SIMCodeAlert */ = {
+			isa = PBXGroup;
+			children = (
+				D83AF1491FA89BC600D00EC2 /* AppDelegate.h */,
+				D83AF14A1FA89BC600D00EC2 /* AppDelegate.m */,
+				D83AF14C1FA89BC600D00EC2 /* ViewController.h */,
+				D83AF14D1FA89BC600D00EC2 /* ViewController.m */,
+				D83AF14F1FA89BC600D00EC2 /* Main.storyboard */,
+				D83AF1521FA89BC600D00EC2 /* Assets.xcassets */,
+				D83AF1541FA89BC600D00EC2 /* LaunchScreen.storyboard */,
+				D83AF1571FA89BC600D00EC2 /* Info.plist */,
+				D83AF1581FA89BC600D00EC2 /* main.m */,
+			);
+			path = SIMCodeAlert;
+			sourceTree = "<group>";
+		};
+		D83AF1611FA89BC600D00EC2 /* SIMCodeAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				D83AF1621FA89BC600D00EC2 /* SIMCodeAlertTests.m */,
+				D83AF1641FA89BC600D00EC2 /* Info.plist */,
+			);
+			path = SIMCodeAlertTests;
+			sourceTree = "<group>";
+		};
+		D83AF16C1FA89BC600D00EC2 /* SIMCodeAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D83AF16D1FA89BC600D00EC2 /* SIMCodeAlertUITests.m */,
+				D83AF16F1FA89BC600D00EC2 /* Info.plist */,
+			);
+			path = SIMCodeAlertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D83AF1451FA89BC600D00EC2 /* SIMCodeAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83AF1721FA89BC600D00EC2 /* Build configuration list for PBXNativeTarget "SIMCodeAlert" */;
+			buildPhases = (
+				D83AF1421FA89BC600D00EC2 /* Sources */,
+				D83AF1431FA89BC600D00EC2 /* Frameworks */,
+				D83AF1441FA89BC600D00EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SIMCodeAlert;
+			productName = SIMCodeAlert;
+			productReference = D83AF1461FA89BC600D00EC2 /* SIMCodeAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D83AF15D1FA89BC600D00EC2 /* SIMCodeAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83AF1751FA89BC600D00EC2 /* Build configuration list for PBXNativeTarget "SIMCodeAlertTests" */;
+			buildPhases = (
+				D83AF15A1FA89BC600D00EC2 /* Sources */,
+				D83AF15B1FA89BC600D00EC2 /* Frameworks */,
+				D83AF15C1FA89BC600D00EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D83AF1601FA89BC600D00EC2 /* PBXTargetDependency */,
+			);
+			name = SIMCodeAlertTests;
+			productName = SIMCodeAlertTests;
+			productReference = D83AF15E1FA89BC600D00EC2 /* SIMCodeAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D83AF1681FA89BC600D00EC2 /* SIMCodeAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83AF1781FA89BC600D00EC2 /* Build configuration list for PBXNativeTarget "SIMCodeAlertUITests" */;
+			buildPhases = (
+				D83AF1651FA89BC600D00EC2 /* Sources */,
+				D83AF1661FA89BC600D00EC2 /* Frameworks */,
+				D83AF1671FA89BC600D00EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D83AF16B1FA89BC600D00EC2 /* PBXTargetDependency */,
+			);
+			name = SIMCodeAlertUITests;
+			productName = SIMCodeAlertUITests;
+			productReference = D83AF1691FA89BC600D00EC2 /* SIMCodeAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D83AF13E1FA89BC500D00EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "\bMCEJ";
+				TargetAttributes = {
+					D83AF1451FA89BC600D00EC2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D83AF15D1FA89BC600D00EC2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D83AF1451FA89BC600D00EC2;
+					};
+					D83AF1681FA89BC600D00EC2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D83AF1451FA89BC600D00EC2;
+					};
+				};
+			};
+			buildConfigurationList = D83AF1411FA89BC500D00EC2 /* Build configuration list for PBXProject "SIMCodeAlert" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D83AF13D1FA89BC500D00EC2;
+			productRefGroup = D83AF1471FA89BC600D00EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D83AF1451FA89BC600D00EC2 /* SIMCodeAlert */,
+				D83AF15D1FA89BC600D00EC2 /* SIMCodeAlertTests */,
+				D83AF1681FA89BC600D00EC2 /* SIMCodeAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D83AF1441FA89BC600D00EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83AF1561FA89BC600D00EC2 /* LaunchScreen.storyboard in Resources */,
+				D83AF1531FA89BC600D00EC2 /* Assets.xcassets in Resources */,
+				D83AF1511FA89BC600D00EC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83AF15C1FA89BC600D00EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83AF1671FA89BC600D00EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D83AF1421FA89BC600D00EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83AF14E1FA89BC600D00EC2 /* ViewController.m in Sources */,
+				D83AF1591FA89BC600D00EC2 /* main.m in Sources */,
+				D83AF14B1FA89BC600D00EC2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83AF15A1FA89BC600D00EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83AF1631FA89BC600D00EC2 /* SIMCodeAlertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83AF1651FA89BC600D00EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83AF16E1FA89BC600D00EC2 /* SIMCodeAlertUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D83AF1601FA89BC600D00EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D83AF1451FA89BC600D00EC2 /* SIMCodeAlert */;
+			targetProxy = D83AF15F1FA89BC600D00EC2 /* PBXContainerItemProxy */;
+		};
+		D83AF16B1FA89BC600D00EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D83AF1451FA89BC600D00EC2 /* SIMCodeAlert */;
+			targetProxy = D83AF16A1FA89BC600D00EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D83AF14F1FA89BC600D00EC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D83AF1501FA89BC600D00EC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D83AF1541FA89BC600D00EC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D83AF1551FA89BC600D00EC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D83AF1701FA89BC600D00EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D83AF1711FA89BC600D00EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D83AF1731FA89BC600D00EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SIMCodeAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mcej.SIMCodeAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D83AF1741FA89BC600D00EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SIMCodeAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mcej.SIMCodeAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D83AF1761FA89BC600D00EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SIMCodeAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mcej.SIMCodeAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SIMCodeAlert.app/SIMCodeAlert";
+			};
+			name = Debug;
+		};
+		D83AF1771FA89BC600D00EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SIMCodeAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mcej.SIMCodeAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SIMCodeAlert.app/SIMCodeAlert";
+			};
+			name = Release;
+		};
+		D83AF1791FA89BC600D00EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SIMCodeAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mcej.SIMCodeAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SIMCodeAlert;
+			};
+			name = Debug;
+		};
+		D83AF17A1FA89BC600D00EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SIMCodeAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mcej.SIMCodeAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SIMCodeAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D83AF1411FA89BC500D00EC2 /* Build configuration list for PBXProject "SIMCodeAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83AF1701FA89BC600D00EC2 /* Debug */,
+				D83AF1711FA89BC600D00EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83AF1721FA89BC600D00EC2 /* Build configuration list for PBXNativeTarget "SIMCodeAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83AF1731FA89BC600D00EC2 /* Debug */,
+				D83AF1741FA89BC600D00EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83AF1751FA89BC600D00EC2 /* Build configuration list for PBXNativeTarget "SIMCodeAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83AF1761FA89BC600D00EC2 /* Debug */,
+				D83AF1771FA89BC600D00EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83AF1781FA89BC600D00EC2 /* Build configuration list for PBXNativeTarget "SIMCodeAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83AF1791FA89BC600D00EC2 /* Debug */,
+				D83AF17A1FA89BC600D00EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D83AF13E1FA89BC500D00EC2 /* Project object */;
+}
